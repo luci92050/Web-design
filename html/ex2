@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			Titlu
+		</title>
+		
+	</head>
+	<body>
+        <h1>
+        
+        heading
+        
+        </h1>
+	    <p>	
+		paragraf1
+		
+		</p>
+        <h3>
+        Director of Some Stuff
+        </h3>
+        <p>	
+		paragraf2
+		
+		</p> 
+        
+        <h5>
+        Director of Some Stuff
+        </h5>
+        
+        <p>    
+		paragraf3
+		
+		</p> 
+        
+        <h2>
+        h2
+        </h2>
+        
+        <p>
+        p2
+        </p>
+        
+        <h4>
+        h4
+        </h4>
+        
+        <p>
+        p4
+        </p>
+        
+        <h6>
+        h6
+        </h6>
+        
+        <p>
+        p6
+        </p>
+        
+        
+	</body>
+</html>
