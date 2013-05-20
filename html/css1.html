@@ -1,0 +1,134 @@
+///css1st course
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons Galore!</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+	</head>
+	<body>
+     <div>Text</div>   
+	</body>
+</html>
+////
+div {height:40px; width:20px; border: 4px solid black; background-color: red; box-shadow: 5px 5px 5px #888;}
+
+/////css2nd course
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+     
+     <form>
+
+
+    
+    <input type='text' name='hi' value='Hi'>
+    <input type='text' name='hi' value='Hi'>
+    
+    <p>Type your response:</p><br/>
+    <textarea></textarea>
+    
+    <input type='radio'>Yes
+    <input type='radio'>No  
+    
+    <input type='checkbox' checked>Mushrooms
+    <input type='checkbox'>Pepperoni
+    
+    <input type='submit'>
+    </form>
+     
+	</body>
+</html>
+
+/////////css3
+index:
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Pick a Date</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css'/>
+        <script type='text/javascript' src='script.js'></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+	</head>
+	<body>
+        <!--Add your HTML below!-->
+    <input type='text' id='departing'>    
+    <input type='text' id='returning'>    
+        
+	</body>
+</html>
+
+/////
+scripts:
+
+$(document).ready(function()
+{
+    $('#departing').datepicker();
+    $('#returning').datepicker();
+}
+)
+
+////////////css4
+
+// Write your code below!
+var userAge
+userAge=parseInt(prompt ("sdsdfsdf"), 10)
+
+while (isNaN(userAge))
+{
+    console.log("jhasgdhjsa")
+    userAge=parseInt(prompt ("sdsdfsdf"), 10)
+}
+
+if (userAge < 18)
+{
+    console.log("jkasdjasjdjdasj")
+    
+}
+else if (userAge === 22)
+{
+    console.log("equal")
+    
+}
+else 
+{
+    console.log("oisajduhfsdhfhsd")
+}
+//////////css 5
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Let's Draw!</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+    </head>
+    <body>
+        <canvas id="canvas" width="200" height="200">
+            This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+        <script type='text/javascript' src='script.js'></script>
+    </body>
+</html>
+
+///css
+
+canvas {
+    border: 1px dotted black;
+}
+///js
+var my_canvas= document.getElementById("canvas")
+var context= my_canvas.getContext("2d");
+context.beginPath()
+context.arc(75,75,75,0,2*Math.PI)
+context.fillStyle= 'red'
+context.fillRect(10, 10, 50, 20);
+context.font = '30px Garamond'
+context.fillText("Hello!", 15, 150)
+
+
